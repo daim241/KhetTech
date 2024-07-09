@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/background_green_stroke"
+    android:backgroundTint="@color/loginBackground">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/background_green_stroke"
+        tools:text="Tip 1 Site Selection and Soil Preparation"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:background="@drawable/background_green_stroke"
+        tools:text="Description: Ensure the planting site receives full sunlight and has good drainage for optimal plant growth."/>
+
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/background_green_stroke"
+        android:clickable="true"
+        tools:text="https://www.youtube.com/watch?v=x4yUVdupL8o"/>
+
+
+</LinearLayout>

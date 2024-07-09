@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">خیطیک</string>
+    <string name="add_plant">پودا شامل کریں</string>
+    <string name="temperature">درجہ حرارت</string>
+    <string name="humidity">نمی</string>
+    <string name="soil_moisture">مٹی کی نمی</string>
+    <string name="search_plants">پودوں کی تلاش کریں</string>
+    <string name="disease_detection">بیماری کی شناخت</string>
+    <string name="add_your_plant">اپنا پودا شامل کریں</string>
+    <string name="tips_and_tricks">مشورے اور ٹرک</string>
+    <string name="movement_alert">حرکت انتباہ!!</string>
+    <string name="make_your_own_plant_journal">اپنا پلانٹ جرنل خود بنائیں</string>
+    <string name="email_or_username">ای میل یا صارف نام</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="login">لاگ ان</string>
+    <string name="don_t_have_an_account">اکاونٹ نہیں ہے؟</string>
+    <string name="sign_up">سائن اپ</string>
+    <string name="username">صارف کا نام</string>
+    <string name="email">ای میل</string>
+    <string name="already_have_an_account">پہلے ہی اکاونٹ ہے؟</string>
+    <string name="sign_in">سائن ان</string>
+    <string name="get_tips_for_your_green_friend">اپنے سبز دوست کے لئے مشورے حاصل کریں</string>
+    <string name="plant_name">پودا کا نام</string>
+    <string name="plant_description">پودا کی تفصیل</string>
+    <string name="please_wait">براہ کرم انتظار کریں...</string>
+    <string name="send">بھیجیں</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="update">اپ ڈیٹ</string>
+    <string name="delete">حذف کریں</string>
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+    <string name="rate_us">ہمیں درجہ دیں</string>
+    <string name="about_us">ہمارے بارے میں</string>
+    <string name="logout">لاگ آوٹ</string>
+    <string name="report_your_problem">اپنی مشکل کی اطلاع دیں</string>
+    <string name="description_max_300_words">تفصیل (زیادہ سے زیادہ 300 الفاظ)</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="message_1">بیماری کا نام: بوٹریٹس (یا گرے مولڈ)۔
+        علامات: پتوں، تنے، پھولوں اور پھلوں پر بھوری رنگ کا سانچہ ظاہر ہوتا ہے۔
+        ماحولیات: یہ فنگس ہلکے اور مرطوب ماحول میں، خراب ہوادار جگہوں پر اگتی ہے۔
+        علاج: کاشت کے دوران اس فنگس کو ظاہر ہونے سے روکنے کے لیے، پودے لگاتے وقت مناسب جگہ کو یقینی بنائیں۔ ان حصوں کو کاٹ دیں جو متاثر ہوئے ہیں، پھر پودوں کے تمام حصوں پر بورڈو مکسچر کا چھڑکاؤ کریں۔
+</string>
+    <string name="message_2">بیماری کا نام: سرکوپوریوسس۔
+        علامات: پتوں پر بھوری رنگ کے دھبے نمودار ہوتے ہیں۔
+        ماحولیات: یہ فنگس گیلے ماحول میں سرد موسم کے دوران ظاہر ہوتی ہے۔
+        علاج: بیمار پتوں کا بورڈو مکسچر یا سلفر سے علاج کریں۔ بیماری سے بچنے کے لیے، پودے لگاتے وقت مناسب جگہ کو یقینی بنائیں۔
+</string>
+    <string name="message_3">بیماری کا نام: Fusariosis.
+        علامات: پودا مرجھا جاتا ہے۔ جڑیں سڑ جاتی ہیں۔ پتے پیلے ہو جاتے ہیں۔
+        ماحولیات: یہ فنگس بھاری، گیلی اور خراب ہوا والی مٹی میں نشوونما پاتی ہے۔
+        علاج: پودے کو نامیاتی، سلفر یا تانبے پر مبنی فنگسائڈ کے ساتھ چھڑکیں۔
+</string>
+    <string name="message_4">بیماری کا نام: Downy mildew.
+        علامات: پتوں پر بھورے دھبے نمودار ہوتے ہیں۔ اس کے بعد پتے زمین پر گرنے لگتے ہیں۔
+        ماحولیات: یہ فنگس بہت گرم موسم اور نمایاں نمی میں نشوونما پاتی ہے۔
+        علاج: جب پتوں پر دھبے نظر آئیں تو متاثرہ پتوں کو کاٹ دیں تاکہ وہ دوسرے پودوں کو آلودہ نہ کریں۔ پھر پتوں پر بورڈو مکسچر چھڑکیں۔ پانی دینے کے بعد پتوں پر نیٹل سلری لگائیں۔
+</string>
+    <string name="message_5">بیماری کا نام: پاؤڈری پھپھوندی۔
+        علامات: پتوں پر ایک سفید تہہ نمودار ہوتی ہے (ایک سانچہ بن رہا ہے)۔
+        ماحولیات: یہ فنگس گرم، بہت مرطوب ماحول میں نشوونما پاتی ہے۔
+        علاج: پودے لگانے کے وقت پودوں کو مناسب جگہ دیں۔ کسی بھی متاثرہ پتے کاٹ دیں۔ پھر ہر ہفتے دودھ اور پانی کے مرکب (تقریباً 17 آونس دودھ اور ایک گیلن پانی) کے ساتھ پتوں پر چھڑکیں۔
+</string>
+    <string name="message_6">بیماری کا نام: Phytophtora cinnamoni.
+        علامات: پتے اور تنے مرجھا جاتے ہیں، زرد ہو جاتے ہیں اور خشک ہو جاتے ہیں۔ جڑیں سڑ جاتی ہیں۔
+        ماحولیات: یہ فنگس گرم اور گیلے ماحول میں نشوونما پاتی ہے۔
+        علاج: آس پاس کے پودوں کی آلودگی سے بچنے کے لیے متاثرہ پتوں کو کاٹ کر جلا دیں، پھر پتوں پر بورڈو مکسچر کا چھڑکاؤ کریں۔
+</string>
+    <string name="message_7">بیماری کا نام: رامولریا۔
+        علامات: ہلکے بھورے دھبے نمودار ہوتے ہیں۔ پھر پتے خشک ہو جاتے ہیں۔
+        ماحول: فنگس گرم، بہت مرطوب ماحول میں، خراب ہوا والی جگہوں پر ظاہر ہوتی ہے۔
+        علاج: اس بیماری کو ظاہر ہونے سے روکنے کے لیے جتنا ممکن ہو سکے، پودے لگاتے وقت قطاروں میں جگہ جگہ اچھی طرح لگائیں۔ متاثرہ پتوں کو کاٹ دیں، پھر پتوں پر بورڈو مکسچر چھڑکیں۔
+</string>
+    <string name="message_8">بیماری کا نام: بلائیٹ۔
+        علامات: پتوں پر سرخ دھبے بنتے ہیں جس کی وجہ سے پتے گر جاتے ہیں۔
+        ماحولیات: یہ فنگس تب پیدا ہوتی ہے جب موسم گیلا ہوتا ہے یا جب پودوں کو کثرت سے پانی دیا جاتا ہے۔ فنگس موسم بہار کے شروع سے شروع ہو کر گرمیوں کے آخر تک ظاہر ہو سکتی ہے۔
+        علاج: جب بیماری کی پہلی علامات ظاہر ہوں تو متاثرہ پتوں کو کاٹ کر جلا دیں تاکہ دوسرے پودوں کو آلودہ نہ ہو۔ اس کے بعد پتوں کو سلفر کے محلول، ہارسٹیل سلوری، یا نیٹل سلوری کے ساتھ چھڑکیں۔
+</string>
+    <string name="message_9">بیماری کا نام: پسو برنگ۔
+        علامات: پتوں (خاص طور پر جوان پتے) میں سوراخ نظر آتے ہیں۔
+        ماحول: پسو برنگ گرم اور خشک موسم میں نمودار ہوتا ہے۔ علاج: پتوں پر نیٹل سلوری کا سپرے کریں۔
+        روزانہ پانی دینا اس کیڑے کو ظاہر ہونے سے روکتا ہے، کیونکہ یہ پانی پسند نہیں کرتا۔
+</string>
+    <string name="message_10">بیماری کا نام: مکڑی کے ذرات۔
+        علامات: یہ پودوں کا رس چوستے ہیں۔ پتے پیلے ہو جاتے ہیں۔ پتوں پر چھوٹے، سفید جالے نمودار ہوتے ہیں۔ پودا مرجھا جاتا ہے۔
+        ماحولیات: یہ کیڑا گرم اور خشک موسم میں پروان چڑھتا ہے۔
+        علاج: پتوں پر پانی کا چھڑکاؤ کریں، کیونکہ مکڑی کے ذرات گیلے ماحول کو پسند نہیں کرتے۔
+</string>
+    <string name="message_11">بیماری کا نام: کیڑے: کیٹرپلر۔
+        علامات: کیٹرپلر پتوں کو چباتے ہیں۔ پتوں میں سوراخ نظر آتے ہیں۔
+        ماحولیات: یہ کیڑے موسم بہار میں نمودار ہونے لگتے ہیں، جب تتلیاں دوبارہ پیدا ہونے لگتی ہیں۔
+        علاج: پتوں کو کیٹرپلر کے خلاف نامیاتی پروڈکٹ کے ساتھ سپرے کریں، جیسے پائریتھرین، بیسیلس تھورینجینس، یا بورڈو مکسچر۔
+</string>
+    <string name="message_12">بیماری کا نام: گھونگھے۔
+        علامات: پتوں پر گھونگوں کے پیچھے چھوڑا ہوا کیچڑ کا راستہ نظر آئے گا۔ گھونگے جوان پتے کھانے آتے ہیں۔
+        ماحول: یہ گیلے ماحول میں یا بارش کے کچھ عرصے بعد ظاہر ہوتے ہیں۔
+        علاج: گھونگوں کو نمودار ہونے سے روکنے کے لیے، پودے کے اردگرد لکڑی کے شیونگ، راکھ یا گھاس رکھیں تاکہ گھونگے پودوں پر چڑھنے کے قابل نہ ہوں۔ آپ پودے کے قریب بیئر کا ایک پیالہ بھی رکھ سکتے ہیں، جو گھونگوں کے ساتھ پسندیدہ ہے۔
+</string>
+    <string name="message_13">بیماری کا نام: سلگس۔
+        علامات: پتوں پر کیچڑ کا ایک راستہ جو slugs کے پیچھے رہ جاتا ہے۔ سلگس جوان پتے کھانے آتے ہیں۔
+        ماحول: یہ گیلے ماحول میں یا بارش کے کچھ عرصے بعد ظاہر ہوتے ہیں۔
+        علاج: سلگس کو ظاہر ہونے سے روکنے کے لیے، پودے کے اردگرد لکڑی کی شیونگ، راکھ یا گھاس لگائیں تاکہ سلگس پودوں پر چڑھنے سے قاصر ہوں۔ آپ پودے کے قریب بیئر کا ایک پیالہ بھی رکھ سکتے ہیں، جو سلگس کے ساتھ پسندیدہ ہے۔
+</string>
+    <string name="message_14">بیماری کا نام: افڈس۔
+        علامات: افڈ پتوں پر حملہ کرتے ہیں اور ان میں سے مائع چوستے ہیں، جس کی وجہ سے پودے کی نشوونما سست ہوجاتی ہے۔ پتے خشک ہو جاتے ہیں، پیلے ہو جاتے ہیں اور گر جاتے ہیں۔ پتے اور پھول بگڑ جاتے ہیں۔
+        ماحول: افڈس موسم بہار میں شروع ہو کر خزاں کے آخر تک ظاہر ہو سکتے ہیں۔ موسم بہار کے آغاز سے، افڈس اپنے انڈوں کے نکلنے کے ساتھ تیزی سے بڑھتے ہیں۔
+        علاج: یہ ان کیڑوں کو ظاہر ہونے سے روکنے کے لیے بہت سی تکنیکیں ہیں۔ پتوں پر نیٹل، فرن یا روبرب سلوری کا چھڑکاؤ کریں۔ پتوں پر صابن والا پانی (سیاہ صابن سے بنا) چھڑکیں۔ Ladybugs aphid لاروا کھائیں گے۔
+</string>
+    <string name="message_15">ڈیمپنگ آف فنگس کو کنٹرول کرنے کے لیے کیمومائل چائے کا استعمال کریں، جو اکثر جوان پودوں پر اچانک حملہ کرتا ہے۔
+        ہفتے میں ایک بار پودوں کی بنیاد کے آس پاس کی مٹی میں چائے کا ایک دھبہ شامل کریں یا اسے پودوں کے اسپرے کے طور پر استعمال کریں۔
+</string>
+    <string name="message_16">سورج کی پیروی کریں۔ اپنے باغ کے لیے جگہ کا انتخاب کرنے سے پہلے اس بات پر توجہ دیں کہ سورج کی روشنی آپ کے صحن میں کیسے آتی ہے۔
+</string>
+    <string name="message_17">مٹی کے برتنوں پر بننے والے نمک کے ذخائر کو دور کرنے کے لیے، سفید سرکہ کے برابر حصے، شراب اور پانی کو اسپرے کی بوتل میں رگڑیں۔ مرکب کو برتن میں لگائیں اور پلاسٹک کے برش سے رگڑیں۔ اس میں کچھ لگانے سے پہلے برتن کو خشک ہونے دیں۔
+</string>
+    <string name="urdu">Switch Language To English</string>
+    <string name="about_us_msg">کھیت ٹیک میں خوش آمدید۔ آپ کا باغبانی کا حتمی ساتھی! ہماری ایپ آپ کو باغبانی کے ماہر بننے میں مدد کرنے کے لیے بنائی گئی ہے۔
+    چاہے آپ ایک تجربہ کار سبز انگوٹھا ہو یا ابھی شروعات کر رہے ہو۔ پودوں کی فہرست جیسی خصوصیات کے ساتھ،
+    بیماری کا پتہ لگانے، جرنلنگ، اور تجاویز اور چالوں، ہم نے آپ کو راستے کے ہر قدم کا احاطہ کیا ہے.
+    ہمارا مشن آپ کو صحت مند بڑھنے کے لیے درکار علم اور ٹولز کے ساتھ بااختیار بنانا ہے،
+        پھل پھولنے والے پودے اور باغبانی کے بہت سے انعامات سے لطف اندوز ہوں۔ باغبانی کے شوقینوں کی ہماری کمیونٹی میں شامل ہوں اور آج ہی اپنے خوابوں کے باغ کو اگانا شروع کریں!</string>
+
+    <string name="no_data_found">کوئی ڈیٹا نہیں ہے۔</string>
+    <string name="msg_motion_senesor_on">موشن سینسر آن ہے۔</string>
+    <string name="msg_motion_detected">الرٹ!! آپ کے پلانٹ کے ارد گرد کچھ حرکت ہے</string>
+    <string name="update_word">اپ ڈیٹ</string>
+    <string name="save">محفوظ کریں۔</string>
+    <string name="delete_word">حذف کریں۔</string>
+    <string name="delete_plant">پلانٹ کو حذف کر دیا گیا۔</string>
+    <string name="update_plant">پلانٹ کو اپ ڈیٹ کر دیا گیا۔</string>
+    <string name="add_new_plant">نیا پلانٹ شامل کریں۔</string>
+    <string name="add_btn">شامل کریں</string>
+    <string name="cancel_btn"> منسوخ کریں</string>
+    <string name="msg_no_camera_permission">کیمرے کی اجازت مسترد کر دی گئی ہے۔</string>
+    <string name="please_enter_your_email_address">براہ کرم اپنا ای میل ایڈریس درج کریں۔</string>
+    <string name="password_reset_email_sent_successfully">پاس ورڈ ری سیٹ ای میل کامیابی کے ساتھ بھیج دیا گیا۔</string>
+    <string name="failed_to_send_reset_email">ری سیٹ ای میل بھیجنے میں ناکام</string>
+    <string name="msg_login_successfull">لاگ ان کامیاب</string>
+    <string name="email_or_password_is_incorrect">ای میل یا پاس ورڈ غلط ہے۔</string>
+    <string name="please_fill_in_both_email_and_password">براہ کرم ای میل اور پاس ورڈ دونوں بھریں۔</string>
+    <string name="something_went_wrong">کچھ غلط ہو گیا. براہ کرم کچھ دیر بعد کوشش کریں</string>
+    <string name="report_submit">آپ کی رپورٹ جمع کر دی گئی ہے۔</string>
+    <string name="enter_description">براہ کرم ایک تفصیل درج کریں۔</string>
+    <string name="already_rated">آپ پہلے ہی درجہ بندی کر چکے ہیں!</string>
+    <string name="rating_failed">درجہ بندی چیک کرنے میں ناکام</string>
+    <string name="user_not_logged_in">صارف لاگ ان نہیں ہے۔</string>
+    <string name="feedback_msg">آپ کی راے کا شکریہ!</string>
+    <string name="failed_to_saved_rating">درجہ بندی محفوظ کرنے میں ناکام</string>
+    <string name="ok_btn">ٹھیک ہے</string>
+    <string name="forget_password">اپنا پاس ورڈ بھول گئے؟</string>
+
+    <!-- Asif Nursery -->
+    <string name="nursery_name_1">آصف نرسری</string>
+    <string name="nursery_address_1">رفیع بنگلز باغ اور ابراہیم سوسائٹی شاہ فیصل کالونی، کراچی، کراچی شہر، سندھ</string>
+    <string name="nursery_phone_1">03012345576</string>
+
+    <!-- Mehak Nursery -->
+    <string name="nursery_name_2">مہک نرسری</string>
+    <string name="nursery_address_2">راڈو شاپنگ سینٹر، بلاک 9، پی آئی اے ہاؤسنگ اسکیم بلاک 10 گلستان جوہر، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_2">03122345677</string>
+
+    <!-- Islam Uddin Nursery -->
+    <string name="nursery_name_3">اسلام الدین نرسری</string>
+    <string name="nursery_address_3">مین کے یو سرکلر آر ڈی، نزد اسلامی مرکز، جامعہ کراچی، کراچی، کراچی شہر، سندھ</string>
+    <string name="nursery_phone_3">موجود نہیں ہے</string>
+
+    <!-- Green Peace Nursery -->
+    <string name="nursery_name_4">گرین پیس نرسری</string>
+    <string name="nursery_address_4">لانڈھی 1، نیول لینڈ سیکٹر 37 ڈی لانڈھی ٹاؤن، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_4">موجود نہیں ہے</string>
+
+    <!-- The Green Gardens Nursery -->
+    <string name="nursery_name_5">دی گرین گارڈنز نرسری</string>
+    <string name="nursery_address_5">6 سی، ڈی ایچ اے فیز 4 فیز 4 ڈیفنس ہاؤسنگ اتھارٹی، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_5">03352631182</string>
+
+    <!-- Arabian Sea Nursery -->
+    <string name="nursery_name_6">عربی سی نرسری</string>
+    <string name="nursery_address_6">پلاٹ 41، ڈی ایچ اے فیز 5 سی ویو اپارٹمنٹس ڈیفنس وی ڈیفنس ہاؤسنگ اتھارٹی</string>
+    <string name="nursery_phone_6">موجود نہیں ہے</string>
+
+    <!-- Rana Nursery -->
+    <string name="nursery_name_7">رانا نرسری</string>
+    <string name="nursery_address_7">شہرِ جہانگیر روڈ، بلاک ڈی نارتھ ناظم آباد ٹاؤن، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_7">موجود نہیں ہے</string>
+
+    <!-- Royal Plants -->
+    <string name="nursery_name_8">رائل پلانٹس</string>
+    <string name="nursery_address_8">نزد ٹبہ ہارٹ ہسپتال، ایف بی ایریا بلاک 2 عزیز آباد کراچی</string>
+    <string name="nursery_phone_8">03126015011</string>
+
+    <!-- Bismillah Green Nursery -->
+    <string name="nursery_name_9">کراچی بسم اللہ گرین نرسری</string>
+    <string name="nursery_address_9">لینڈ سکیپ ڈیزائن کراچی، شہید ملت روڈ، نزد بلوچ کالونی پل، بلاک 6</string>
+    <string name="nursery_phone_9">03332846567</string>
+
+    <!-- Hamza Green Nursery -->
+    <string name="nursery_name_10">حمزہ گرین نرسری</string>
+    <string name="nursery_address_10">ہل ویو آر ڈی، بلاک 1 گلستان جوہر، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_10">03012645217</string>
+
+    <!-- Plants Planet Nursery -->
+    <string name="nursery_name_11">پلانٹس نرسری اور لینڈ سکیپنگ</string>
+    <string name="nursery_address_11">مین میمار، گلستان کے قریب میرٹھ سیکٹر 8 اے گلزار ہجری سکم 33، کراچی سٹی سندھ</string>
+    <string name="nursery_phone_11">03002169266</string>
+
+    <!-- Super Ghouri Nursery -->
+    <string name="nursery_name_12">سپر غوری نرسری</string>
+    <string name="nursery_address_12">نیشنل اسٹیڈیم آر ڈی، داؤد سی ایچ ایس، کراچی، کراچی سٹی</string>
+    <string name="nursery_phone_12">03332823145</string>
+
+    <!-- Taj Mahal Nursery -->
+    <string name="nursery_name_13">تاج محل نرسری</string>
+    <string name="nursery_address_13">بلاک 10 گلشن اقبال، کراچی، کراچی سٹی، سندھ</string>
+    <string name="nursery_phone_13">03082254993</string>
+
+    <!-- Diamond Nursery -->
+    <string name="nursery_name_14">ڈائمنڈ نرسری</string>
+    <string name="nursery_address_14">ڈی ایچ اے فیز 4 ڈیفنس ہاؤسنگ اتھارٹی</string>
+    <string name="nursery_phone_14">موجود نہیں ہے</string>
+
+    <string name="name">نام: </string>
+    <string name="address">پتہ: </string>
+    <string name="phnoe">فون نمبر: </string>
+
+
+    <!-- Tip 1 -->
+    <string name="tip_1_title">تجویز نمبر 1: سائٹ کا انتخاب اور زمین کی تیاری</string>
+    <string name="tip_1_description">تفصیل: یقینی بنائیں کہ پودے کو بہترین نشوونما حاصل ہو سکے، سورج کی روشنی پوری ملے اور اچھے نکاسی کا باعث ہو۔</string>
+    <string name="tip_1_video_url">https://www.youtube.com/watch?v=x4yUVdupL8o</string>
+
+    <!-- Tip 2 -->
+    <string name="tip_2_title">تجویز نمبر 2: مٹی کا ٹیسٹ اور امینڈمنٹ</string>
+    <string name="tip_2_description">تفصیل: زرخیزی اور ساخت کو بڑھانے کے لیے کمپوسٹ یا عضوی مواد سے امینڈ کریں، جس سے نرمی بہتر ہو اور سالم جڑوں کی بھرپور ماحول فراہم ہو۔</string>
+    <string name="tip_2_video_url">https:www.youtube.com/watch?v=o78MB7R4EbE</string>
+
+    <!-- Tip 3 -->
+    <string name="tip_3_title">تجویز نمبر 3: گہری لگان سے بچنا</string>
+    <string name="tip_3_description">تفصیل: زیادہ گہری لگان سے جڑوں کو سانس نہ آسکے، جبکہ زیادہ کم گہری لگان سے انہیں خشک ہونے کا سامنا کرنا پڑے۔</string>
+    <string name="tip_3_video_url">https://www.youtube.com/watch?v=J1LW1Nz0pd4</string>
+
+    <!-- Tip 4 -->
+    <string name="tip_4_title">تجویز نمبر 4: ابتدائی پانی دینا</string>
+    <string name="tip_4_description">تفصیل: اگر بوتا گاہ کو لگانے کے بعد، زمین کو جڑوں کے گرد مستقر کرنے اور ہوا کے پاکٹس ختم کرنے کے لیے کافی پانی دیں۔</string>
+    <string name="tip_4_video_url">https://www.youtube.com/watch?v=QfyZxsDRvz0</string>
+
+    <!-- Tip 5 -->
+    <string name="tip_5_title">تجویز نمبر 5: مسلسل نمی</string>
+    <string name="tip_5_description">تفصیل: زمین کی نمی کو مستقل برقرار رکھیں، پانی کی اضافی بھرائی اور مکمل خشکی سے بچیں، خاص طور پر استقرار کے دوران۔</string>
+    <string name="tip_5_video_url">https://www.youtube.com/watch?v=MTKhBCHrHGE</string>
+
+    <!-- Tip 6 -->
+    <string name="tip_6_title">تجویز نمبر 6</string>
+    <string name="tip_6_description">تفصیل: اپنے پودوں کو گہرے پانی دینے کے لیے لیکن کم فاصلے پر پانی دیں، تاکہ گہری جڑوں کی نشوونما کو بڑھایا جا سکے اور خشکی سے بچایا جا سکے۔</string>
+    <string name="tip_6_video_url">https://www.youtube.com/watch?v=kS9S6-phHqg</string>
+
+    <!-- Tip 7 -->
+    <string name="tip_7_title">تجویز نمبر 7</string>
+    <string name="tip_7_description">تفصیل: بیکٹیریا سے ہونے والا داغ، جو کہ زنتھوموناس کے اسپیسز کی وجہ سے ہوتا ہے، ٹماٹر اور شملہ مرچ کے پودوں کو متاثر کرتا ہے، جس سے پتوں، ڈنڈوں اور پھل پر چھوٹے، پانی سے بھرے نشانات پیدا ہوتے ہیں جو سیاہ ہوسکتے ہیں۔
+روک تھام: مرض سے پاک بیج اور پلانٹس استعمال کریں، کاپر پر مبنی بیکٹیریسائیڈ استعمال کریں، اور نباتات کو ٹراک کرنے کے طریقے سے صفائی اختیار کریں۔</string>
+    <string name="tip_7_video_url">https://www.youtube.com/watch?v=uh1VNnw4cAc</string>
+
+    <!-- Tip 8 -->
+    <string name="tip_8_title">تجویز نمبر 8</string>
+    <string name="tip_8_description">تفصیل: پتوں کی سوخت۔ یہ اس برنامہ سے منسلک ہے کہ پتوں کے کناروں اور نوکوں کی سوخت اور سکھاؤ، عموماً محیطی تناؤ جیسے خشکی، زیادہ درجہ حرارت، یا نمک کے اجمال کی وجہ سے ہوتی ہے۔ یہ پودوں کو کمزور کر سکتی ہے اور فوٹوسنتھیسس کو کم کر سکتی ہے۔
+روک تھام: مسلسل پانی دینے کو برقرار رکھیں، زمین کی صحت کو عضوی مواد کے ساتھ بہتر بنائیں، اور شدید گرمی کے دوران سائے دینے کی فراہمی کریں۔ زیادہ نمک والے کھادوں کا استعمال اجتناب کریں۔</string>
+    <string name="tip_8_video_url">https://www.youtube.com/watch?v=rRLP2YWB0_I</string>
+
+    <!-- Tip 9 -->
+    <string name="tip_9_title">تجویز نمبر 9</string>
+    <string name="tip_9_description">تفصیل: دیری کا بلائٹ۔ یہ ایک شدید بیماری ہے جو فائٹوفتھورا انفیسٹنز نام کے اوموسیٹ سے ہوتی ہے، ٹماٹر اور آلو کو متاثر کرتی ہے۔ یہ پتوں، ڈنڈوں اور پھل پر بڑے، گہرے، پانی سے بھرے نشانات پیدا کرتی ہے، جس سے پودے کی تیزی سے کمی ہوتی ہے۔
+روک تھام: مزید کارباریات کے لیے مزاحمتی اقسام کا استعمال کریں، فصل کے روٹیشن کا عمل اختیار کریں، اور باوقت فنگائیڈ استعمال کریں۔ بیمار پودوں کو فوراً نکال کر انہیں تباہ کریں تاکہ بیماری کا پھیلاؤ روکا جا سکے۔</string>
+    <string name="tip_9_video_url">https://www.youtube.com/watch?v=yyhJ7L8LhJU</string>
+
+    <!-- Tip 10 -->
+    <string name="tip_10_title">تجویز نمبر 10</string>
+    <string name="tip_10_description">تفصیل: پاؤڈری ملڈیو
+تعریف: پاؤڈری ملڈیو ایک قارضہ بیماری ہے جو مختلف قسم کے پودوں پر اثر انداز ہوتی ہے، جس میں پتوں اور ڈنڈوں پر سفید، پاؤڈری داغ پائے جاتے ہیں۔ یہ پتے زرد ہونے، موڑنے، اور جلد سے گرنے کا سبب بن سکتی ہے۔
+روک تھام: اچھی ہوا داری کی فراہمی کو یقینی بنائیں، اوپر سے پانی دینے سے بچیں، اور سلفر یا نیم کے تیل پر مبنی فنگائیڈ استعمال کریں۔ متاثرہ پودوں کے حصوں کو فوراً ہٹا دینا بھی مددگار ثابت ہوسکتا ہے۔</string>
+    <string name="tip_10_video_url">https://www.youtube.com/watch?v=A_xsjZ139g4</string>
+
+    <!-- Tip 11 -->
+    <string name="tip_11_title">تجویز نمبر 11</string>
+    <string name="tip_11_description">تفصیل: ارلی بلائٹ
+تعریف: ارلی بلائٹ ٹماٹر اور آلو میں عام قارضہ بیماری ہے، جو کہ کارکن قارضہ الٹرناریا سولانی سے ہوتی ہے۔ یہ پتوں، ڈنڈوں اور پھل پر گہرے، متمرکز داغ پیدا کرتی ہے، جس سے پتوں کا زرد ہونا اور گرنے کا سبب بنتی ہے، جو پیداوار کو کم کرسکتا ہے۔
+روک تھام: ارلی بلائٹ سے بچاوٹ کے لیے، فصل کی روٹیشن کا عمل اختیار کریں، اوپر سے پانی دینے سے بچیں، اور پودوں کے ارد گرد اچھی ہوا داری فراہم کریں۔ زمین کو پتوں پر پھینکنے سے بچانے کے لیے ملچ استعمال کریں، اور ضرورت کے مطابق کاپر پر مبنی فنگائیڈ استعمال کریں۔</string>
+    <string name="tip_11_video_url">https://www.youtube.com/watch?v=Sl9vazp2hDE</string>
+
+    <string name="gardening_tips">باغبانی کی تجاویز</string>
+    <string name="plant_nursery">پودا گھر</string>
+
+
+</resources>

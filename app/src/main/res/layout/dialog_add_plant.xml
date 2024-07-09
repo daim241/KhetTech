@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/loginBackground"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/PlantImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/plmaino" />
+
+
+    <EditText
+        android:id="@+id/PlantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/black"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/plant_name"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/PlantImage" />
+
+    <EditText
+        android:id="@+id/PlantDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background"
+        android:drawablePadding="8dp"
+        android:drawableTint="@color/black"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/plant_description"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/PlantName"
+        app:layout_constraintStart_toStartOf="@id/PlantName"
+        app:layout_constraintEnd_toEndOf="@id/PlantName"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

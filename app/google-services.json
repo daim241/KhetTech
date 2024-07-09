@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "536582453157",
+    "firebase_url": "https://khettech-e4dbe-default-rtdb.firebaseio.com",
+    "project_id": "khettech-e4dbe",
+    "storage_bucket": "khettech-e4dbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536582453157:android:8e63ac0ca6655a1d429a4c",
+        "android_client_info": {
+          "package_name": "com.example.khettech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLzUqr2tf4oMQeuaRYBUobwuQ6-yMOeOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

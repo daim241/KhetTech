@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KHETTECH" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="color">@color/green_200</item>
+        <item name="android:statusBarColor">@color/toolbar</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

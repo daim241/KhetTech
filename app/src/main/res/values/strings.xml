@@ -1,0 +1,308 @@
+<resources>
+    <string name="app_name">KHETTECH</string>
+    <string name="add_plant">Add Plant</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="soil_moisture">Soil Moisture</string>
+    <string name="search_plants">Search Plants</string>
+    <string name="disease_detection">Disease Detetction</string>
+    <string name="add_your_plant">Add Your Plant</string>
+    <string name="tips_and_tricks">Tips And Tricks</string>
+    <string name="movement_alert">Movement Alert!!</string>
+    <string name="make_your_own_plant_journal">Make Your Own Plant Journal</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="get_tips_for_your_green_friend">Get Tips For Your Green Friend</string>
+    <string name="plant_name">Plant Name</string>
+    <string name="plant_description">Plant Description</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="report_your_problem">Report Your Problem</string>
+    <string name="description_max_300_words">Description (Max 300 words)</string>
+    <string name="submit">Submit</string>
+    <string name="message_1">Disease Name: Botrytis (or gray mold).
+        Symptoms: Gray mold appears on the leaves, stem, flowers, and fruit.
+        Environment: This fungus grows in mild and humid environments, in poorly ventilated spaces.
+        Treatment: To prevent this fungus from appearing during cultivation, make sure to properly space the plants when planting. Cut off the parts that have been infected, then spray Bordeaux mixture over all parts of the plant.
+</string>
+    <string name="message_2">Disease Name: Circoporiosis.
+        Symptoms: Gray spots appear on the leaves.
+        Environment: This fungus appears during cold weather in wet environments.
+        Treatment: Treat diseased leaves with Bordeaux mixture or sulfur. To prevent the disease, make sure to properly space the plants when planting.
+</string>
+    <string name="message_3">Disease Name: Fusariosis.
+        Symptoms: The plant wilts. The root rots. The leaves turn yellow.
+        Environment: This fungus develops in heavy, wet, and poorly aerated soil.
+        Treatment: Sprinkle the plant with an organic, sulfur or copper-based fungicide.
+</string>
+    <string name="message_4">Disease Name: Downy mildew.
+        Symptoms: Brown spots appear on the leaves. The leaves then begin to fall to the ground.
+        Environment: This fungus develops in very hot weather and significant humidity.
+        Treatment: When spots appear on the leaves, cut the infected leaves off so they do not contaminate other plants. Then spray Bordeaux mixture on the leaves. Apply nettle slurry to the leaves after watering.
+</string>
+    <string name="message_5">Disease Name: Powdery mildew.
+        Symptoms: A white layer appears on the leaves (a mold is forming).
+        Environment: This fungus develops in hot, very humid environments.
+        Treatment: Properly space the plants at the time of planting. Cut off any infected leaves. Then spray the leaves with a mixture of milk and water (around 17 ounces of milk and one gallon of water) each week.
+</string>
+    <string name="message_6">Disease Name: Phytophtora cinnamoni.
+        Symptoms: The leaves and stem wilt, turn yellow, and dry out.The root rots.
+        Environment: This fungus develops in hot and wet environments.
+        Treatment: Cut and burn infected leaves to avoid contamination of surrounding plants, then spray Bordeaux mixture on the leaves.
+</string>
+    <string name="message_7">Disease Name: Ramularia.
+        Symptoms: Light brown spots appear. Leaves then dry out.
+        Environment: The fungus appears in hot, very humid environments, in poorly aerated spaces.
+        Treatment: To do as much as possible to prevent this disease from appearing, space plants well in rows at the time of planting. Cut off the leaves that have been infected, then spray Bordeaux mixture over the leaves.
+</string>
+    <string name="message_8">Disease Name: Blight.
+        Symptoms: Red spots form on the leaves, causing the leaves to fall.
+        Environment: This fungus develops when the weather is wet or when plants are too frequently watered. The fungus can appear starting in the beginning of spring through the end of summer.
+        Treatment: When the first signs of the disease appear, cut and then burn infected leaves to avoid contaminating other plants. Then spray the leaves with a sulfur solution, horsetail slurry, or nettle slurry.
+</string>
+    <string name="message_9">Disease Name: Flea beetles.
+        Symptoms: Holes appear in the leaves (especially young leaves).
+        Environment: Flea beetles appear in hot and dry weather. Treatment: Spray nettle slurry on the leaves.
+        Watering daily prevents this insect from appearing, as it does not like water.
+</string>
+    <string name="message_10">Disease Name: Spider mites.
+        Symptoms: They suck the sap from plants. The leaves turn yellow. Small, whitish webs appear on the leaves. The plant withers.
+        Environment: This pest thrives in hot and dry weather.
+        Treatment: Spray water on the leaves, because spider mites do not like wet environments.
+</string>
+    <string name="message_11">Disease Name: Pests: Caterpillars.
+        Symptoms: Caterpillars chew on leaves. Holes appear in the leaves.
+        Environment: These pests start appearing in the spring, when butterflies begin to reproduce.
+        Treatment: Spray the leaves with an organic anti-caterpillar product, such as pyrethrin, Bacillus thuringiensis, or Bordeaux mixture.
+</string>
+    <string name="message_12">Disease Name: Snails.
+        Symptoms: A path of slime left behind by snails will appear on the leaves. Snails come to eat young leaves.
+        Environment: They appear in wet environments or just after a period of rain.
+        Treatment: To prevent snails from appearing, place wood shavings, ash, or hay around the plant so the snails are unable to climb onto the plants. You can also place a bowl of beer near the plant, a favorite with snails.
+</string>
+    <string name="message_13">Disease Name: Slugs.
+        Symptoms: A path of slime left behind by slugs will appear on the leaves. Slugs come to eat young leaves.
+        Environment: They appear in wet environments or just after a period of rain.
+        Treatment: To prevent slugs from appearing, place wood shavings, ash, or hay around the plant so the slugs are unable to climb onto the plants. You can also place a bowl of beer near the plant, a favorite with slugs.
+</string>
+    <string name="message_14">Disease Name: Aphids.
+        Symptoms: Aphids attack leaves and suck the liquid from them, causing plant growth to slow. Leaves dry out, turn yellow, and fall. The leaves and flowers are deformed.
+        Environment: Aphids can appear starting in spring through the end of fall. Starting in spring, aphids multiply rapidly with the hatching of their eggs.
+        Treatment: They are many techniques to prevent these pests from appearing. Spray nettle, fern, or rhubarb slurry on the leaves. Spray soapy water (made with black soap) onto the leaves. Ladybugs will eat aphid larvae.
+</string>
+    <string name="message_15">Use chamomile tea to control damping-off fungus, which often attacks young seedlings quite suddenly.
+        Just add a spot of tea to the soil around the base of seedlings once a week or use it as a foliage spray.
+</string>
+    <string name="message_16">Follow the sun. Pay attention to how sunlight plays through your yard before choosing a spot for your garden.
+</string>
+    <string name="message_17">To remove the salt deposits that form on clay pots, combine equal parts white vinegar, rubbing alcohol and water in a spray bottle. Apply the mixture to the pot and scrub with a plastic brush. Let the pot dry before you plant anything in it.
+</string>
+    <string name="urdu">زبان کو اردو میں تبدیل کریں۔</string>
+    <string name="about_us_msg">Welcome to KhetTech. Your ultimate gardening companion! Our app is designed to help you become a pro in gardening.
+        Whether you\'re a seasoned green thumb or just starting out. With features like plant list,
+        disease detection, journaling, and tips and tricks, we\'ve got you covered every step of the way.
+        Our mission is to empower you with the knowledge and tools you need to grow healthy,
+        thriving plants and enjoy the many rewards of gardening. Join our community of gardening enthusiasts and start growing your dream garden today!</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="msg_motion_senesor_on">Motion Sensor On</string>
+    <string name="msg_motion_detected">Alert!! There is some movement around your plant</string>
+    <string name="update_word">Update</string>
+    <string name="save">Save</string>
+    <string name="delete_word">Delete</string>
+    <string name="delete_plant">Plant deleted</string>
+    <string name="update_plant">Plant updated</string>
+    <string name="add_new_plant">Add a new plant</string>
+    <string name="add_btn">Add</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="msg_no_camera_permission">Camera permission is denied</string>
+    <string name="please_enter_your_email_address">Please enter your email address</string>
+    <string name="password_reset_email_sent_successfully">Password reset email sent successfully</string>
+    <string name="failed_to_send_reset_email">Failed to send reset email</string>
+    <string name="msg_login_successfull">Login successful</string>
+    <string name="email_or_password_is_incorrect">Email or password is incorrect</string>
+    <string name="please_fill_in_both_email_and_password">Please fill in both email and password</string>
+    <string name="something_went_wrong">Something went wrong please try again later</string>
+    <string name="report_submit">Your report has been submitted.</string>
+    <string name="enter_description">Please enter a description.</string>
+    <string name="already_rated">You have already rated!</string>
+    <string name="rating_failed">Failed to check rating</string>
+    <string name="user_not_logged_in">User not logged in.</string>
+    <string name="feedback_msg">Thanks for your feedback!</string>
+    <string name="failed_to_saved_rating">Failed to save rating</string>
+    <string name="ok_btn">Ok</string>
+    <string name="forget_password">Forget Your Password?</string>
+
+    <!-- Sindh Forestry -->
+    <string name="nursery_name_1">Sindh forestry</string>
+    <string name="nursery_address_1">Block 3, Shah Faisal Colony 3 Shah Faisal Colony, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_1">03012345576</string>
+
+    <!-- Asif Nursery -->
+    <string name="nursery_name_2">Asif nursery</string>
+    <string name="nursery_address_2">Rafi Bungalows Bagh e Ibrahim Society Shah Faisal Colony, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_2">03122345677</string>
+
+    <!-- Mehak Nursery -->
+    <string name="nursery_name_3">Mehak nursery</string>
+    <string name="nursery_address_3">Rado shopping centre, Block 9, Pia Housing Scheme Block 10 Gulistan-e-Johar, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_3">null</string>
+
+    <!-- Islam Uddin Nursery -->
+    <string name="nursery_name_4">Islam uddin nursery</string>
+    <string name="nursery_address_4">Main KU Circular Rd, near Islamic center, University Of Karachi, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_4">null</string>
+
+    <!-- Green Peace Nursery -->
+    <string name="nursery_name_5">Green peace nursery</string>
+    <string name="nursery_address_5">Landhi 1, Naval Land Sector 37 D Landhi Town, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_5">03352631182</string>
+
+    <!-- The Green Gardens Nursery -->
+    <string name="nursery_name_6">The Green Gardens Nursery</string>
+    <string name="nursery_address_6">6 C, D.H.A. Phase 4 Phase 4 Defence Housing Authority, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_6">null</string>
+
+    <!-- Arabian Sea Nursery -->
+    <string name="nursery_name_7">Arabian Sea Nursery</string>
+    <string name="nursery_address_7">Plot 41, DHA Phase 5 Sea View Apartments Defence V Defence Housing Authority</string>
+    <string name="nursery_phone_7">null</string>
+
+    <!-- Rana Nursery -->
+    <string name="nursery_name_8">Rana Nursery</string>
+    <string name="nursery_address_8">shahrah-e-Jahangir Rd, Block D North Nazimabad Town, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_8">03126015011</string>
+
+    <!-- Royal Plants -->
+    <string name="nursery_name_9">Royal plants</string>
+    <string name="nursery_address_9">near tabba heart hospital, FB Area Block 2 Azizabad Karachi</string>
+    <string name="nursery_phone_9">03332846567</string>
+
+    <!-- Hamza Green Nursery -->
+    <string name="nursery_name_10">Hamza Green Nursery</string>
+    <string name="nursery_address_10">Hill View Rd, Block 1 Gulistan-e-Johar, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_10">03012645217</string>
+
+    <!-- Plants Planet Nursery -->
+    <string name="nursery_name_11">Plants planet nursery and landscaping services</string>
+    <string name="nursery_address_11">Main Maymar Ave, near gulistan nawab, Meerut Society Sector 8 A Gulzar E Hijri Scheme 33, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_11">03002169266</string>
+
+    <!-- Super Ghouri Nursery -->
+    <string name="nursery_name_12">Super Ghouri Nursery</string>
+    <string name="nursery_address_12">National Stadium Rd, Dawood CHS, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_12">03332823145</string>
+
+    <!-- Taj Mahal Nursery -->
+    <string name="nursery_name_13">Taj Mahal nursery</string>
+    <string name="nursery_address_13">Block 10 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh</string>
+    <string name="nursery_phone_13">03082254993</string>
+
+    <!-- Diamond Nursery -->
+    <string name="nursery_name_14">Diamond nursery</string>
+    <string name="nursery_address_14">DHA phase 4 defence housing Authority</string>
+    <string name="nursery_phone_14">null</string>
+
+
+    <string name="name">Name: </string>
+    <string name="address">Address: </string>
+    <string name="phnoe">Phone No: </string>
+
+
+    <!-- Tip 1 -->
+    <string name="tip_1_title">Tip 1: Site Selection and Soil Preparation</string>
+    <string name="tip_1_description">Description: Ensure the planting site receives full sunlight and has good drainage for optimal plant growth.</string>
+    <string name="tip_1_video_url">https://www.youtube.com/watch?v=x4yUVdupL8o</string>
+
+    <!-- Tip 2 -->
+    <string name="tip_2_title">Tip 2: Soil Testing and Amendment</string>
+    <string name="tip_2_description">Description: Amend with compost or organic matter to enhance fertility and structure, promoting a healthy root environment.</string>
+    <string name="tip_2_video_url">https:www.youtube.com/watch?v=o78MB7R4EbE</string>
+
+    <!-- Tip 3 -->
+    <string name="tip_3_title">Tip 3: Avoiding Deep Planting</string>
+    <string name="tip_3_description">Description: Planting too deep can suffocate roots, while planting too shallow can expose them to drying out.</string>
+    <string name="tip_3_video_url">https://www.youtube.com/watch?v=J1LW1Nz0pd4</string>
+
+    <!-- Tip 4 -->
+    <string name="tip_4_title">Tip 4: Initial Watering</string>
+    <string name="tip_4_description">Description: After planting, water thoroughly to settle the soil around the roots and eliminate air pockets.</string>
+    <string name="tip_4_video_url">https://www.youtube.com/watch?v=QfyZxsDRvz0</string>
+
+    <!-- Tip 5 -->
+    <string name="tip_5_title">Tip 5: Consistent Moisture</string>
+    <string name="tip_5_description">Description: Maintain consistent soil moisture, avoiding water logging and complete drying, especially during the establishment period.</string>
+    <string name="tip_5_video_url">https://www.youtube.com/watch?v=MTKhBCHrHGE</string>
+
+    <!-- Tip 6 -->
+    <string name="tip_6_title">Tip 6</string>
+    <string name="tip_6_description">Description: Water your plants deeply but less frequently to encourage deep root growth and improve drought resistance.</string>
+    <string name="tip_6_video_url">https://www.youtube.com/watch?v=kS9S6-phHqg</string>
+
+    <!-- Tip 7 -->
+    <string name="tip_7_title">Tip 7</string>
+    <string name="tip_7_description">Description: Bacterial spot, caused by Xanthomonas spp., affects tomato and pepper plants, leading to small, water-soaked lesions on leaves, stems, and fruit that can become necrotic.
+Prevention: Use disease-free seeds and transplants, apply copper-based bactericides, and practice good sanitation by removing plant debris and rotating crops.</string>
+    <string name="tip_7_video_url">https://www.youtube.com/watch?v=uh1VNnw4cAc</string>
+
+    <!-- Tip 8 -->
+    <string name="tip_8_title">Tip 8</string>
+    <string name="tip_8_description">Description: Definition: Leaf scorch refers to the browning and drying of leaf edges and tips, often due to environmental stressors like drought, high temperatures, or salt accumulation. It can weaken plants and reduce photosynthesis.
+Prevention: Maintain consistent watering, improve soil health with organic matter, and provide shade during extreme heat. Avoid using high-salt fertilizers.</string>
+    <string name="tip_8_video_url">https://www.youtube.com/watch?v=rRLP2YWB0_I</string>
+
+    <!-- Tip 9 -->
+    <string name="tip_9_title">Tip 9</string>
+    <string name="tip_9_description">Description: Definition: Late blight is a severe disease caused by the oomycete Phytophthora infestans, affecting tomatoes and potatoes. It causes large, dark, water-soaked lesions on leaves, stems, and fruit, leading to rapid plant decline.
+Prevention: Use resistant varieties, practice crop rotation, and apply fungicides regularly. Remove and destroy infected plants immediately to prevent spread.</string>
+    <string name="tip_9_video_url">https://www.youtube.com/watch?v=yyhJ7L8LhJU</string>
+
+    <!-- Tip 10 -->
+    <string name="tip_10_title">Tip 10</string>
+    <string name="tip_10_description">Description: Powdery Mildew
+Definition: Powdery mildew is a fungal disease affecting a wide variety of plants, characterized by white, powdery spots on leaves and stems. It can cause leaves to yellow, curl, and drop prematurely.
+Prevention: Ensure good air circulation, avoid overhead watering, and apply sulfur or neem oil-based fungicides. Removing infected plant parts promptly can also help.</string>
+    <string name="tip_10_video_url">https://www.youtube.com/watch?v=A_xsjZ139g4</string>
+
+    <!-- Tip 11 -->
+    <string name="tip_11_title">Tip 11</string>
+    <string name="tip_11_description">Description: Early Blight
+Definition: Early blight is a common fungal disease in tomatoes and potatoes, caused by the fungus Alternaria solani. It results in dark, concentric spots on leaves, stems, and fruit, leading to yellowing and dropping of leaves, which can significantly reduce yield.
+Prevention: To prevent early blight, practice crop rotation, avoid overhead watering, and ensure good air circulation around plants. Use mulch to prevent soil from splashing onto leaves, and apply copper-based fungicides as needed.</string>
+    <string name="tip_11_video_url">https://www.youtube.com/watch?v=Sl9vazp2hDE</string>
+
+
+    <string name="gardening_tips">Gardening Tips</string>
+    <string name="plant_nursery">Plant Nursery</string>
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
