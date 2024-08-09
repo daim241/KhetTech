@@ -6,18 +6,19 @@ import android.media.AudioManager
 import android.media.Ringtone
 import android.media.RingtoneManager
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.lifecycleScope
-import androidx.viewpager.widget.ViewPager
 import com.example.khettech.R
 import com.example.khettech.base.BaseActivity
 import com.example.khettech.databinding.ActivityHomeBinding
-import com.example.khettech.models.GardeningTip
+import com.example.khettech.sharedPref.LanguageManager
 import com.example.khettech.ui.diseaseDetection.DiseaseDetrction
 import com.example.khettech.ui.gardeningTip.GardeningTips
 import com.example.khettech.ui.journal.Journal
@@ -33,7 +34,6 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.Query
 import com.google.firebase.database.ValueEventListener
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -55,6 +55,7 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
     private lateinit var adapter: ImageSliderAdapter
     private val timer = Timer()
     private var beepingJob: Job? = null
+    private var isChecked = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -89,14 +90,26 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
         binding.nurseryContainer.setOnClickListener(this)
         binding.exit.setOnClickListener(this)
 
+        binding.motionSensorIcon.isChecked = LanguageManager.getToggleState(this@HomeActivity);
+
+        if (LanguageManager.getToggleState(this@HomeActivity)) {
+            startMotionSensorListener()
+        }
+
 
         binding.motionSensorIcon.setOnCheckedChangeListener { _, isChecked ->
-            if (isChecked) {
-                startMotionSensorListener()
-            } else {
-                stopAlertBeep()
-//stopMotionSensorListener()
-            }
+                if (isChecked) {
+                    LanguageManager.setToggleState(this@HomeActivity, true)
+                    //Toast.makeText(this@HomeActivity, LanguageManager.getToggleState(this@HomeActivity).toString(), Toast.LENGTH_SHORT).show()
+                    startMotionSensorListener()
+                } else {
+                    LanguageManager.setToggleState(this@HomeActivity, false)
+                    //Toast.makeText(this@HomeActivity, LanguageManager.getToggleState(this@HomeActivity).toString(), Toast.LENGTH_SHORT).show()
+//                    stopAlertBeep()
+                    stopMotionSensorListener()
+                }
+//            }
+
         }
 
     }
@@ -222,78 +235,38 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
         dialog.show()
     }
 
-//    val motionDetected =
-//        dataSnapshot.child("motion").getValue(Boolean::class.java) ?: false
-
-
-//    private fun startMotionSensorListener() {
-//        Toast.makeText(this@HomeActivity, R.string.msg_motion_senesor_on, Toast.LENGTH_SHORT).show()
-//        motionSensorListener = motionSensorRef.addValueEventListener(object : ValueEventListener {
-//            override fun onDataChange(dataSnapshot: DataSnapshot) {
-//                val motionDetected = dataSnapshot.child("motion").getValue(Int::class.java)
-//                val switchState = binding.motionSensorIcon.isChecked
-//
-//
-//                if (switchState) {
-//                    isSwitchOn = true
-//                    if (motionDetected == 1 && !isMotionDetected) {
-//                        isMotionDetected = true
-//                        lifecycleScope.launch {
-//                            while (isMotionDetected) {
-//                                Toast.makeText(
-//                                    this@HomeActivity,
-//                                    R.string.msg_motion_detected,
-//                                    Toast.LENGTH_SHORT
-//                                ).show()
-//                                playAlertBeep()
-//                                delay(500)  // Delay for 0.5 seconds
-//                            }
-//                        }
-//                    } else if (motionDetected == 0 && isMotionDetected) {
-//                        isMotionDetected = false
-//                    }
-//                } else {
-//                    isSwitchOn = false
-//                    isMotionDetected = false
-//                }
-//            }
-//
-//            override fun onCancelled(databaseError: DatabaseError) {
-//                Toast.makeText(this@HomeActivity, R.string.no_data_found, Toast.LENGTH_SHORT).show()
-//            }
-//        })
-//    }
-
 
     private fun startMotionSensorListener() {
         Toast.makeText(this@HomeActivity, R.string.msg_motion_senesor_on, Toast.LENGTH_SHORT).show()
 
         motionSensorListener = motionSensorRef.addValueEventListener(object : ValueEventListener {
+            @RequiresApi(Build.VERSION_CODES.P)
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val motionDetected = dataSnapshot.getValue(Int::class.java)//.child("motion").getValue()
                 val switchState = binding.motionSensorIcon.isChecked
 
-                if (switchState) {
-                    isSwitchOn = true
-                    if (motionDetected == 1 && !isMotionDetected ) {
-                        isMotionDetected = true
-                        lifecycleScope.launch {
-                            while (isMotionDetected) {
-                                Toast.makeText(
-                                    this@HomeActivity,
-                                    R.string.msg_motion_detected,
-                                    Toast.LENGTH_SHORT
-                                ).show()
-                                playAlertBeep()
-                                delay(500)  // Delay for 0.5 seconds
-                            }
-                        }
+                if (LanguageManager.getToggleState(this@HomeActivity)) {
+                    if (motionDetected == 1) {
+//                        Toast.makeText(this@HomeActivity, motionDetected.toString(), Toast.LENGTH_SHORT).show()
+
+                        Toast.makeText(
+                            this@HomeActivity,
+                            R.string.msg_motion_detected,
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        //playAlertBeep()
+                        ringtone.isLooping = true;
+                        ringtone.play()
+
                     }
-                } else {
-                    isSwitchOn = false
-                    isMotionDetected = false
-                    stopBeeping() // Stop the beep if the switch is off
+                    else {
+                        isMotionDetected = false
+//                        Toast.makeText(this@HomeActivity, motionDetected.toString(), Toast.LENGTH_SHORT).show()
+                        ringtone.stop()
+                        //stopAlertBeep()
+                    }
                 }
+
             }
 
             override fun onCancelled(databaseError: DatabaseError) {
@@ -307,7 +280,7 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
             beepingJob = lifecycleScope.launch {
                 while (true) {
                     playAlertBeep()
-                    delay(500) // Delay for 0.5 seconds
+                    delay(20000) // Delay for 0.5 seconds
                 }
             }
         }
@@ -333,8 +306,9 @@ class HomeActivity : BaseActivity(), View.OnClickListener {
         if (!::ringtone.isInitialized) {
             val notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
             ringtone = RingtoneManager.getRingtone(applicationContext, notification)
-            ringtone.stop()
+
         }
+        ringtone.stop()
     }
 
 

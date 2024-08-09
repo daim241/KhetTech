@@ -29,7 +29,11 @@ class JournalAdapter(
         val plant = plants[position]
         holder.editName.setText(plant.name)
         holder.editDescription.setText(plant.description)
-        holder.plantImage.setImageURI(Uri.parse(plant.image))
+        if (plant.image.isNullOrEmpty()) {
+            holder.plantImage.setImageResource(R.drawable.plmaino)
+        } else {
+            holder.plantImage.setImageURI(Uri.parse(plant.image))
+        }
         holder.date.setText(plant.date)
 
         holder.editName.isEnabled = false
@@ -57,22 +61,22 @@ class JournalAdapter(
                 journalViewModel.update(plant)
 
                 // Notify RecyclerView of the change
-//                notifyItemChanged(position)
+                // notifyItemChanged(position)
                 Toast.makeText(context, R.string.update_plant, Toast.LENGTH_SHORT).show()
             }
         }
 
         holder.btnDelete.setOnClickListener {
-
             journalViewModel.delete(plant)
             // Remove the plant from the list
-//            plants.removeAt(position)
+            // plants.removeAt(position)
 
             // Notify RecyclerView of the removal
-//            notifyItemRemoved(position)
+            // notifyItemRemoved(position)
             Toast.makeText(context, R.string.delete_plant, Toast.LENGTH_SHORT).show()
         }
     }
+
 
     fun setPlants(plants: MutableList<ModelPlantJournal>) {
         this.plants = plants

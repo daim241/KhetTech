@@ -1,6 +1,5 @@
 package com.example.khettech.ui.journal
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -94,15 +93,18 @@ class Journal : AppCompatActivity() {
             val validationAction = {
                 val plantName = editTextPlantName.text.toString()
                 val plantDescription = editTextPlantDescription.text.toString()
+                val imageTag = image.getTag()?.toString()
 
                 if (plantName.isBlank() && plantDescription.isBlank()) {
                     Toast.makeText(this, "Please fill at least one field", Toast.LENGTH_SHORT).show()
+                } else if (imageTag == null) {
+                    Toast.makeText(this, "Please capture an image first", Toast.LENGTH_SHORT).show()
                 } else {
                     val newPlant = ModelPlantJournal(
                         0,
                         plantName,
                         plantDescription,
-                        image.getTag()?.toString(),
+                        imageTag,
                         currentDate
                     )
                     viewModel.insert(newPlant)
@@ -126,6 +128,7 @@ class Journal : AppCompatActivity() {
 
         dialogBuilder.show()
     }
+
 
     private fun onImageViewClicked() {
         if (checkSelfPermission(android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
