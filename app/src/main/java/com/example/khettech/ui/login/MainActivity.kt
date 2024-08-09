@@ -2,7 +2,6 @@ package com.example.khettech.ui.login
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -27,8 +26,8 @@ class MainActivity : AppCompatActivity() {
         firebaseAuth = FirebaseAuth.getInstance()
 
 
-        binding.userName.setText("xyz@gmail.com")
-        binding.userPassword.setText("test123")
+//        binding.userName.setText("xyz@gmail.com")
+//        binding.userPassword.setText("test123")
 
         binding.btnLogin.setOnClickListener {
             val email = binding.userName.text.toString()
