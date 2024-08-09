@@ -24,7 +24,7 @@ Features
 Technologies Used
 
 - Firebase: Cloud-based backend infrastructure
-- Open-source API: [https://perenual.com/api/species-list , https://perenual.com/api/species/details/id], for [Plants List]
+- Open-source API: [https://perenual.com/docs/api] (The API's used in the app was taken by the site. The API's are Plant List and Plant Details), for [Plants List]
 - Kotlin: Programming language
 - MVVM Architecture: Model-View-ViewModel architecture pattern
 
